@@ -16,7 +16,7 @@
 #define INODE_BLOCK_COUNT 5
 #define INODE_COUNT (INODE_PER_BLOCK * INODE_BLOCK_COUNT)
 #define MAX_ERRORS 1000
-#define MAX_INODE_LIST 200 
+#define MAX_INODE_LIST 256 
 
 // Structures
 typedef struct {
